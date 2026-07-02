@@ -39,3 +39,31 @@ This project focuses on flood prediction and Digital Twin visualization using Py
 * Continue testing the datasets to ensure reliable operation of the flood prediction system.
 * Refine the implementation based on the findings from the initial experiments.
 * Prepare a detailed progress report for the next project milestone.
+---
+
+# Week 7–8 Progress
+
+## Activities Completed
+The primary focus during Weeks 7–8 was the implementation and testing of the Python backend for the flood prediction system.
+
+### Backend Development
+- Implemented live data ingestion for retrieving environmental data.
+- Developed data fault filtering to remove invalid or inconsistent data.
+- Implemented decoupled output to support future integration with the CesiumJS frontend.
+
+## Testing and Validation
+- Successfully tested the backend implementation multiple times.
+- Identified and corrected several errors to improve system stability and reliability.
+
+## Challenges Encountered
+The following issues were encountered during development:
+
+1. Package name configuration errors.
+2. Trailing directory causing HTTP 404 errors.
+3. Loop processing latency.
+4. Server bot-block restrictions during live data retrieval.
+
+## Next Development Phase
+- Develop the CesiumJS frontend.
+- Integrate the Python backend with CesiumJS.
+- Develop the 3D Digital Twin visualization.
