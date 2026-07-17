@@ -67,3 +67,37 @@ The following issues were encountered during development:
 - Develop the CesiumJS frontend.
 - Integrate the Python backend with CesiumJS.
 - Develop the 3D Digital Twin visualization.
+# Week 9–10 Progress
+
+## Activities Completed
+
+The primary focus during Weeks 9–10 was the development of the front-end component using **CesiumJS** for the Digital Twin visualization platform.
+
+### Front-End Development
+
+- Continued the implementation of the CesiumJS web platform.
+- Modified and refined the source code through multiple iterations to achieve the required 3D globe visualization for the project.
+- Performed repeated testing to evaluate the functionality and performance of the front-end application.
+- Updated the implementation based on testing results to improve the visualization and overall system behaviour.
+
+## Testing and Validation
+
+Multiple rounds of testing were carried out throughout the development process. Several unsuccessful attempts were encountered during testing, requiring different coding approaches and further refinement of the implementation before achieving the expected behaviour.
+
+## Challenges Encountered
+
+The following issues were identified during the development and testing phase:
+
+1. Blank pages displayed on the CesiumJS web application.
+2. Server request rejection during data retrieval.
+3. Specific name of the cities were not displayed correctly on the 3D globe.
+4. Multiple code iterations were required to resolve front-end implementation issues.
+
+## Next Development Phase
+
+The next stage of development will focus on improving the CesiumJS front-end to provide a more refined and structured 3D Digital Twin visualization. Planned enhancements include:
+
+- Displaying specific name of the cities.
+- Showing real-time water level information.
+- Displaying the predicted probability of future flooding.
+- Improving the overall visualization and user interaction of the Digital Twin environment.
