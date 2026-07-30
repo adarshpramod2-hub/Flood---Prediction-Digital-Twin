@@ -101,3 +101,47 @@ The next stage of development will focus on improving the CesiumJS front-end to 
 - Showing real-time water level information.
 - Displaying the predicted probability of future flooding.
 - Improving the overall visualization and user interaction of the Digital Twin environment.
+# Week 11–12 Progress
+
+## Activities Completed
+
+The primary focus during Weeks 11–12 was the continued development and refinement of the CesiumJS frontend for the Digital Twin visualization platform.
+
+### Front-End Development
+
+- Developed a structured CesiumJS application to display a 3D interactive globe.
+- Implemented visualization of specific cities along with their current water level information.
+- Integrated flood prediction by considering multiple environmental factors, including:
+  - Water level
+  - Probability of rainfall
+  - Rainfall intensity
+  - Additional environmental parameters affecting flood occurrence
+- Expanded the prediction model by incorporating factors commonly considered by meteorologists, including:
+  - Wind speed
+  - Drainage rate
+  - Soil water absorption capacity
+- Improved the frontend to provide a more informative visualization of flood risk based on the changing environmental conditions.
+
+## Testing and Validation
+
+- Conducted regular testing at different time intervals to verify the dynamic behaviour of the system.
+- Confirmed that flood risk values change automatically whenever the environmental parameters are updated.
+- Observed that increases or decreases in water level and other influencing factors directly affect the predicted flood risk.
+- Successfully verified that the frontend correctly reflects changing environmental conditions through multiple test iterations.
+
+## Challenges Encountered
+
+The following issues were encountered during development:
+
+1. Coding errors while integrating the CesiumJS 3D globe.
+2. Frontend rendering inconsistencies during implementation.
+3. Integration issues while combining multiple environmental parameters into the visualization.
+
+These issues were investigated and successfully resolved through debugging and code refinement.
+
+## Next Development Phase
+
+- Incorporate additional environmental factors to improve flood prediction accuracy.
+- Enhance the flood intensity prediction model by refining the weighting of influencing parameters.
+- Continue improving the CesiumJS interface to provide a more detailed and realistic Digital Twin visualization.
+- Improve the accuracy of the predicted flood probability percentage through further testing and optimisation.
