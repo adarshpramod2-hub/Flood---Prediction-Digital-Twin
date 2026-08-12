@@ -145,3 +145,19 @@ These issues were investigated and successfully resolved through debugging and c
 - Enhance the flood intensity prediction model by refining the weighting of influencing parameters.
 - Continue improving the CesiumJS interface to provide a more detailed and realistic Digital Twin visualization.
 - Improve the accuracy of the predicted flood probability percentage through further testing and optimisation.
+## Week 13–14
+
+## Work Completed
+
+- Completed the front-end development of the flood prediction digital twin project.
+ - Implemented an Explainable AI (XAI) Driver Analysis feature to provide insights into the factors contributing to the flood prediction.
+ - Added the XAI Driver Analysis and Prediction Horizon features to the system. These features play an important role in improving the interpretability and practical usefulness of the project:
+
+  - XAI Driver Analysis explains the key factors influencing the generated flood prediction.
+  - Prediction Horizon provides an indication of the potential flood conditions expected in the upcoming hours.
+ - Conducted multiple rounds of testing and validation while integrating these features to ensure that they function correctly with the existing prediction system and front-end visualization.
+
+##  Next Development Phase
+
+- Prepare the project portfolio.
+
